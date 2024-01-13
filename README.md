@@ -4,9 +4,9 @@ Code to process exports from a Zotero group library to jsonl
 `zotero2jsonl` is a Python-based tool for efficiently extracting data from a Zotero SQLite database and converting it into a JSONL (JSON Lines) format. This tool is ideal for researchers, librarians, and anyone who utilizes Zotero for bibliographic data management and wishes to analyze or share their data in a versatile and widely-used format.
 
 ## Features
-- Extracts author names, attachment paths, and other relevant fields from Zotero's SQLite database.
+- Extracts author names, titles, dates, attachment paths, and other relevant bibliographical fields from Zotero's SQLite database.
 - Transforms data for enhanced readability and analysis.
-- Exports data to the JSONL format, perfect for large datasets and further processing.
+- Exports data to the JSONL format, perfect for large datasets and further processing (like RAG).
 
 ## Prerequisites
 Before using `zotero2jsonl`, ensure you have the following:
